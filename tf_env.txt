@@ -1,0 +1,1672 @@
+
+== check python ===================================================
+python version: 2.7.17
+python branch: 
+python build version: ('default', 'Jul 20 2020 15:37:01')
+python compiler version: GCC 7.5.0
+python implementation: CPython
+
+
+== check os platform ===============================================
+os: Linux
+os kernel version: #202003180732 SMP Wed Mar 18 07:34:25 UTC 2020
+os release version: 5.4.26-050426-generic
+os platform: Linux-5.4.26-050426-generic-x86_64-with-Ubuntu-18.04-bionic
+linux distribution: ('Ubuntu', '18.04', 'bionic')
+linux os distribution: ('Ubuntu', '18.04', 'bionic')
+mac version: ('', ('', '', ''), '')
+uname: ('Linux', 'ricks-HP-ZBook-Studio-x360-G5-Ubuntu18', '5.4.26-050426-generic', '#202003180732 SMP Wed Mar 18 07:34:25 UTC 2020', 'x86_64', 'x86_64')
+architecture: ('64bit', '')
+machine: x86_64
+
+
+== are we in docker =============================================
+No
+
+== compiler =====================================================
+c++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+== check pips ===================================================
+numpy                         1.16.6
+protobuf                      3.12.2
+tensorflow-estimator          1.15.1
+tensorflow-gpu                1.14.0
+
+== check for virtualenv =========================================
+False
+
+== tensorflow import ============================================
+     21459:	find library=libc.so.6 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib/tls/haswell/x86_64:/opt/ros/melodic/lib/tls/haswell:/opt/ros/melodic/lib/tls/x86_64:/opt/ros/melodic/lib/tls:/opt/ros/melodic/lib/haswell/x86_64:/opt/ros/melodic/lib/haswell:/opt/ros/melodic/lib/x86_64:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64/tls/haswell/x86_64:/usr/local/cuda/extras/CUPTI/lib64/tls/haswell:/usr/local/cuda/extras/CUPTI/lib64/tls/x86_64:/usr/local/cuda/extras/CUPTI/lib64/tls:/usr/local/cuda/extras/CUPTI/lib64/haswell/x86_64:/usr/local/cuda/extras/CUPTI/lib64/haswell:/usr/local/cuda/extras/CUPTI/lib64/x86_64:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/tls/haswell/x86_64/libc.so.6
+     21459:	  trying file=/opt/ros/melodic/lib/tls/haswell/libc.so.6
+     21459:	  trying file=/opt/ros/melodic/lib/tls/x86_64/libc.so.6
+     21459:	  trying file=/opt/ros/melodic/lib/tls/libc.so.6
+     21459:	  trying file=/opt/ros/melodic/lib/haswell/x86_64/libc.so.6
+     21459:	  trying file=/opt/ros/melodic/lib/haswell/libc.so.6
+     21459:	  trying file=/opt/ros/melodic/lib/x86_64/libc.so.6
+     21459:	  trying file=/opt/ros/melodic/lib/libc.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/haswell/x86_64/libc.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/haswell/libc.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/x86_64/libc.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/libc.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/haswell/x86_64/libc.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/haswell/libc.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/x86_64/libc.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libc.so.6
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/lib/x86_64-linux-gnu/libc.so.6
+     21459:	
+     21459:	find library=libpthread.so.0 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libpthread.so.0
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libpthread.so.0
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/lib/x86_64-linux-gnu/libpthread.so.0
+     21459:	
+     21459:	find library=libdl.so.2 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libdl.so.2
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libdl.so.2
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/lib/x86_64-linux-gnu/libdl.so.2
+     21459:	
+     21459:	find library=libutil.so.1 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libutil.so.1
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libutil.so.1
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/lib/x86_64-linux-gnu/libutil.so.1
+     21459:	
+     21459:	find library=libz.so.1 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libz.so.1
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libz.so.1
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/lib/x86_64-linux-gnu/libz.so.1
+     21459:	
+     21459:	find library=libm.so.6 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libm.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libm.so.6
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/lib/x86_64-linux-gnu/libm.so.6
+     21459:	
+     21459:	find library=libGL.so.1 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libGL.so.1
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libGL.so.1
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/usr/lib/x86_64-linux-gnu/libGL.so.1
+     21459:	
+     21459:	find library=libGLX.so.0 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libGLX.so.0
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libGLX.so.0
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/usr/lib/x86_64-linux-gnu/libGLX.so.0
+     21459:	
+     21459:	find library=libGLdispatch.so.0 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libGLdispatch.so.0
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libGLdispatch.so.0
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/usr/lib/x86_64-linux-gnu/libGLdispatch.so.0
+     21459:	
+     21459:	find library=libX11.so.6 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libX11.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libX11.so.6
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/usr/lib/x86_64-linux-gnu/libX11.so.6
+     21459:	
+     21459:	find library=libxcb.so.1 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libxcb.so.1
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libxcb.so.1
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/usr/lib/x86_64-linux-gnu/libxcb.so.1
+     21459:	
+     21459:	find library=libXau.so.6 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libXau.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libXau.so.6
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/usr/lib/x86_64-linux-gnu/libXau.so.6
+     21459:	
+     21459:	find library=libXdmcp.so.6 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libXdmcp.so.6
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libXdmcp.so.6
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/usr/lib/x86_64-linux-gnu/libXdmcp.so.6
+     21459:	
+     21459:	find library=libbsd.so.0 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/libbsd.so.0
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libbsd.so.0
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/lib/x86_64-linux-gnu/libbsd.so.0
+     21459:	
+     21459:	find library=librt.so.1 [0]; searching
+     21459:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21459:	  trying file=/opt/ros/melodic/lib/librt.so.1
+     21459:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/librt.so.1
+     21459:	 search cache=/etc/ld.so.cache
+     21459:	  trying file=/lib/x86_64-linux-gnu/librt.so.1
+     21459:	
+     21459:	
+     21459:	calling init: /lib/x86_64-linux-gnu/libpthread.so.0
+     21459:	
+     21459:	
+     21459:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+     21459:	
+     21459:	
+     21459:	calling init: /lib/x86_64-linux-gnu/librt.so.1
+     21459:	
+     21459:	
+     21459:	calling init: /lib/x86_64-linux-gnu/libbsd.so.0
+     21459:	
+     21459:	
+     21459:	calling init: /usr/lib/x86_64-linux-gnu/libXdmcp.so.6
+     21459:	
+     21459:	
+     21459:	calling init: /usr/lib/x86_64-linux-gnu/libXau.so.6
+     21459:	
+     21459:	
+     21459:	calling init: /usr/lib/x86_64-linux-gnu/libxcb.so.1
+     21459:	
+     21459:	
+     21459:	calling init: /lib/x86_64-linux-gnu/libdl.so.2
+     21459:	
+     21459:	
+     21459:	calling init: /usr/lib/x86_64-linux-gnu/libX11.so.6
+     21459:	
+     21459:	
+     21459:	calling init: /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0
+     21459:	
+     21459:	
+     21459:	calling init: /usr/lib/x86_64-linux-gnu/libGLX.so.0
+     21459:	
+     21459:	
+     21459:	calling init: /usr/lib/x86_64-linux-gnu/libGL.so.1
+     21459:	
+     21459:	
+     21459:	calling init: /lib/x86_64-linux-gnu/libm.so.6
+     21459:	
+     21459:	
+     21459:	calling init: /lib/x86_64-linux-gnu/libz.so.1
+     21459:	
+     21459:	
+     21459:	calling init: /lib/x86_64-linux-gnu/libutil.so.1
+     21459:	
+     21459:	
+     21459:	calling init: /usr/lib/x86_64-linux-gnu/libGLEW.so
+     21459:	
+     21459:	
+     21459:	initialize program: /usr/bin/python
+     21459:	
+     21459:	
+     21459:	transferring control: /usr/bin/python
+     21459:	
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ImportError: No module named tensorflow
+     21459:	
+     21459:	calling fini: /usr/bin/python [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /usr/lib/x86_64-linux-gnu/libGLEW.so [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /lib/x86_64-linux-gnu/libutil.so.1 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /lib/x86_64-linux-gnu/libz.so.1 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /lib/x86_64-linux-gnu/libm.so.6 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /usr/lib/x86_64-linux-gnu/libGL.so.1 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /usr/lib/x86_64-linux-gnu/libGLX.so.0 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /usr/lib/x86_64-linux-gnu/libX11.so.6 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /lib/x86_64-linux-gnu/libdl.so.2 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /usr/lib/x86_64-linux-gnu/libxcb.so.1 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /usr/lib/x86_64-linux-gnu/libXau.so.6 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /lib/x86_64-linux-gnu/libbsd.so.0 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /lib/x86_64-linux-gnu/librt.so.1 [0]
+     21459:	
+     21459:	
+     21459:	calling fini: /lib/x86_64-linux-gnu/libpthread.so.0 [0]
+     21459:	
+
+== env ==========================================================
+LD_LIBRARY_PATH /opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/extras/CUPTI/lib64
+DYLD_LIBRARY_PATH is unset
+
+== nvidia-smi ===================================================
+Mon Sep 28 16:07:10 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.66       Driver Version: 450.66       CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Quadro P1000        Off  | 00000000:01:00.0  On |                  N/A |
+| N/A   48C    P3    N/A /  N/A |    907MiB /  4040MiB |      3%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      2108      G   /usr/lib/xorg/Xorg                494MiB |
+|    0   N/A  N/A      3876      G   /usr/bin/gnome-shell              226MiB |
+|    0   N/A  N/A     20611      G   ...ac_clean_tf2_3/bin/python        1MiB |
+|    0   N/A  N/A     23117      G   ...AAAAAAAAA= --shared-files      159MiB |
++-----------------------------------------------------------------------------+
+
+== cuda libs  ===================================================
+/usr/local/cuda-10.1/doc/man/man7/libcudart.so.7
+/usr/local/cuda-10.1/doc/man/man7/libcudart.7
+/usr/local/cuda-10.1/targets/x86_64-linux/lib/libcudart.so.10.1.243
+/usr/local/cuda-10.1/targets/x86_64-linux/lib/libcudart_static.a
+/usr/local/cuda-10.2/targets/x86_64-linux/lib/libcudart.so.10.2.89
+/usr/local/cuda-10.0/doc/man/man7/libcudart.so.7
+/usr/local/cuda-10.0/doc/man/man7/libcudart.7
+/usr/local/cuda-10.0/targets/x86_64-linux/lib/libcudart_static.a
+/usr/local/cuda-10.0/targets/x86_64-linux/lib/libcudart.so.10.0.130
+
+== tensorflow installed from info ==================
+
+== python version  ==============================================
+(major, minor, micro, releaselevel, serial)
+(2, 7, 17, 'final', 0)
+
+== bazel version  ===============================================
+
+== check python ===================================================
+python version: 3.6.12
+python branch: 
+python build version: ('default', 'Sep  8 2020 23:10:56')
+python compiler version: GCC 7.3.0
+python implementation: CPython
+
+
+== check os platform ===============================================
+os: Linux
+os kernel version: #202003180732 SMP Wed Mar 18 07:34:25 UTC 2020
+os release version: 5.4.26-050426-generic
+os platform: Linux-5.4.26-050426-generic-x86_64-with-debian-buster-sid
+linux distribution: ('debian', 'buster/sid', '')
+linux os distribution: ('debian', 'buster/sid', '')
+mac version: ('', ('', '', ''), '')
+uname: uname_result(system='Linux', node='ricks-HP-ZBook-Studio-x360-G5-Ubuntu18', release='5.4.26-050426-generic', version='#202003180732 SMP Wed Mar 18 07:34:25 UTC 2020', machine='x86_64', processor='x86_64')
+architecture: ('64bit', '')
+machine: x86_64
+
+
+== are we in docker =============================================
+No
+
+== compiler =====================================================
+c++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+== check pips ===================================================
+numpy                         1.19.2
+protobuf                      3.13.0
+tensorflow                    1.15.0
+tensorflow-estimator          1.15.1
+
+== check for virtualenv =========================================
+False
+
+== tensorflow import ============================================
+tf.version.VERSION = 1.15.0
+tf.version.GIT_VERSION = v1.15.0-rc3-22-g590d6ee
+tf.version.COMPILER_VERSION = 7.3.1 20180303
+Sanity check: array([1], dtype=int32)
+     21863:	find library=libpthread.so.0 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/tls/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/tls/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/tls/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/tls:/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/tls/haswell/x86_64/libpthread.so.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/tls/haswell/libpthread.so.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/tls/x86_64/libpthread.so.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/tls/libpthread.so.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/haswell/x86_64/libpthread.so.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/haswell/libpthread.so.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/x86_64/libpthread.so.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libpthread.so.0
+     21863:	 search path=/opt/ros/melodic/lib/tls/haswell/x86_64:/opt/ros/melodic/lib/tls/haswell:/opt/ros/melodic/lib/tls/x86_64:/opt/ros/melodic/lib/tls:/opt/ros/melodic/lib/haswell/x86_64:/opt/ros/melodic/lib/haswell:/opt/ros/melodic/lib/x86_64:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64/tls/haswell/x86_64:/usr/local/cuda/extras/CUPTI/lib64/tls/haswell:/usr/local/cuda/extras/CUPTI/lib64/tls/x86_64:/usr/local/cuda/extras/CUPTI/lib64/tls:/usr/local/cuda/extras/CUPTI/lib64/haswell/x86_64:/usr/local/cuda/extras/CUPTI/lib64/haswell:/usr/local/cuda/extras/CUPTI/lib64/x86_64:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/tls/haswell/x86_64/libpthread.so.0
+     21863:	  trying file=/opt/ros/melodic/lib/tls/haswell/libpthread.so.0
+     21863:	  trying file=/opt/ros/melodic/lib/tls/x86_64/libpthread.so.0
+     21863:	  trying file=/opt/ros/melodic/lib/tls/libpthread.so.0
+     21863:	  trying file=/opt/ros/melodic/lib/haswell/x86_64/libpthread.so.0
+     21863:	  trying file=/opt/ros/melodic/lib/haswell/libpthread.so.0
+     21863:	  trying file=/opt/ros/melodic/lib/x86_64/libpthread.so.0
+     21863:	  trying file=/opt/ros/melodic/lib/libpthread.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/haswell/x86_64/libpthread.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/haswell/libpthread.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/x86_64/libpthread.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/libpthread.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/haswell/x86_64/libpthread.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/haswell/libpthread.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/x86_64/libpthread.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libpthread.so.0
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/lib/x86_64-linux-gnu/libpthread.so.0
+     21863:	
+     21863:	find library=libc.so.6 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libc.so.6
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libc.so.6
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libc.so.6
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/lib/x86_64-linux-gnu/libc.so.6
+     21863:	
+     21863:	find library=libdl.so.2 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libdl.so.2
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libdl.so.2
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libdl.so.2
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/lib/x86_64-linux-gnu/libdl.so.2
+     21863:	
+     21863:	find library=libutil.so.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libutil.so.1
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libutil.so.1
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libutil.so.1
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/lib/x86_64-linux-gnu/libutil.so.1
+     21863:	
+     21863:	find library=librt.so.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/librt.so.1
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/librt.so.1
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/librt.so.1
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/lib/x86_64-linux-gnu/librt.so.1
+     21863:	
+     21863:	find library=libm.so.6 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libm.so.6
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libm.so.6
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libm.so.6
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/lib/x86_64-linux-gnu/libm.so.6
+     21863:	
+     21863:	find library=libGL.so.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libGL.so.1
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libGL.so.1
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libGL.so.1
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/libGL.so.1
+     21863:	
+     21863:	find library=libGLX.so.0 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libGLX.so.0
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libGLX.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libGLX.so.0
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/libGLX.so.0
+     21863:	
+     21863:	find library=libGLdispatch.so.0 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libGLdispatch.so.0
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libGLdispatch.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libGLdispatch.so.0
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/libGLdispatch.so.0
+     21863:	
+     21863:	find library=libX11.so.6 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libX11.so.6
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libX11.so.6
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libX11.so.6
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/libX11.so.6
+     21863:	
+     21863:	find library=libxcb.so.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libxcb.so.1
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libxcb.so.1
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libxcb.so.1
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/libxcb.so.1
+     21863:	
+     21863:	find library=libXau.so.6 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libXau.so.6
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libXau.so.6
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libXau.so.6
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/libXau.so.6
+     21863:	
+     21863:	find library=libXdmcp.so.6 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libXdmcp.so.6
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libXdmcp.so.6
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libXdmcp.so.6
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/libXdmcp.so.6
+     21863:	
+     21863:	find library=libbsd.so.0 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libbsd.so.0
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libbsd.so.0
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libbsd.so.0
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/lib/x86_64-linux-gnu/libbsd.so.0
+     21863:	
+     21863:	
+     21863:	calling init: /lib/x86_64-linux-gnu/libpthread.so.0
+     21863:	
+     21863:	
+     21863:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+     21863:	
+     21863:	
+     21863:	calling init: /lib/x86_64-linux-gnu/librt.so.1
+     21863:	
+     21863:	
+     21863:	calling init: /lib/x86_64-linux-gnu/libbsd.so.0
+     21863:	
+     21863:	
+     21863:	calling init: /usr/lib/x86_64-linux-gnu/libXdmcp.so.6
+     21863:	
+     21863:	
+     21863:	calling init: /usr/lib/x86_64-linux-gnu/libXau.so.6
+     21863:	
+     21863:	
+     21863:	calling init: /usr/lib/x86_64-linux-gnu/libxcb.so.1
+     21863:	
+     21863:	
+     21863:	calling init: /lib/x86_64-linux-gnu/libdl.so.2
+     21863:	
+     21863:	
+     21863:	calling init: /usr/lib/x86_64-linux-gnu/libX11.so.6
+     21863:	
+     21863:	
+     21863:	calling init: /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0
+     21863:	
+     21863:	
+     21863:	calling init: /usr/lib/x86_64-linux-gnu/libGLX.so.0
+     21863:	
+     21863:	
+     21863:	calling init: /usr/lib/x86_64-linux-gnu/libGL.so.1
+     21863:	
+     21863:	
+     21863:	calling init: /lib/x86_64-linux-gnu/libm.so.6
+     21863:	
+     21863:	
+     21863:	calling init: /lib/x86_64-linux-gnu/libutil.so.1
+     21863:	
+     21863:	
+     21863:	calling init: /usr/lib/x86_64-linux-gnu/libGLEW.so
+     21863:	
+     21863:	
+     21863:	initialize program: /home/ricks/miniconda3/envs/tf115_performance_test/bin/python
+     21863:	
+     21863:	
+     21863:	transferring control: /home/ricks/miniconda3/envs/tf115_performance_test/bin/python
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	find library=libffi.so.7 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../tls/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../tls/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../tls/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../tls:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../..		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../tls/haswell/x86_64/libffi.so.7
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../tls/haswell/libffi.so.7
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../tls/x86_64/libffi.so.7
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../tls/libffi.so.7
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../haswell/x86_64/libffi.so.7
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../haswell/libffi.so.7
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../x86_64/libffi.so.7
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libffi.so.7
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libffi.so.7
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	find library=libopenblasp-r0-ae94cfde.3.9.dev.so [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/tls/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/tls/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/tls/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/tls:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/tls/haswell/x86_64/libopenblasp-r0-ae94cfde.3.9.dev.so
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/tls/haswell/libopenblasp-r0-ae94cfde.3.9.dev.so
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/tls/x86_64/libopenblasp-r0-ae94cfde.3.9.dev.so
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/tls/libopenblasp-r0-ae94cfde.3.9.dev.so
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/haswell/x86_64/libopenblasp-r0-ae94cfde.3.9.dev.so
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/haswell/libopenblasp-r0-ae94cfde.3.9.dev.so
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/x86_64/libopenblasp-r0-ae94cfde.3.9.dev.so
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libopenblasp-r0-ae94cfde.3.9.dev.so
+     21863:	
+     21863:	find library=libgfortran-2e0d59d6.so.5.0.0 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libgfortran-2e0d59d6.so.5.0.0
+     21863:	
+     21863:	find library=libquadmath-2d0c479f.so.0.0.0 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libquadmath-2d0c479f.so.0.0.0
+     21863:	
+     21863:	find library=libz-eb09ad1d.so.1.2.3 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libz-eb09ad1d.so.1.2.3
+     21863:	
+     21863:	find library=libgcc_s.so.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libgcc_s.so.1
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libgcc_s.so.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libgcc_s.so.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libz-eb09ad1d.so.1.2.3
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libquadmath-2d0c479f.so.0.0.0
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libgfortran-2e0d59d6.so.5.0.0
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libopenblasp-r0-ae94cfde.3.9.dev.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	find library=libz.so.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../..		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libz.so.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libz.so.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	find library=liblzma.so.5 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../..		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../liblzma.so.5
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../liblzma.so.5
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/fft/_pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_common.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	find library=libcrypto.so.1.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../..		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libcrypto.so.1.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libcrypto.so.1.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_bounded_integers.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_mt19937.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_philox.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_pcg64.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_sfc64.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_generator.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	find library=libtensorflow_framework.so.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/tls/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/tls/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/tls/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/tls:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/tls/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/tls/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/tls/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/tls:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../tls/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../tls/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../tls/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../tls:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/..		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/tls/haswell/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/tls/haswell/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/tls/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/tls/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/haswell/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/haswell/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../../_solib_local/_U_S_Stensorflow_Spython_C_Upywrap_Utensorflow_Uinternal.so___Utensorflow/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/tls/haswell/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/tls/haswell/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/tls/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/tls/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/haswell/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/haswell/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../tls/haswell/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../tls/haswell/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../tls/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../tls/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../haswell/x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../haswell/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../x86_64/libtensorflow_framework.so.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../libtensorflow_framework.so.1
+     21863:	
+     21863:	find library=libstdc++.so.6 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/..		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/libstdc++.so.6
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../libstdc++.so.6
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libstdc++.so.6
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libstdc++.so.6
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../libtensorflow_framework.so.1
+     21863:	
+     21863:	find library=libhdfs.so [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/..		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../libhdfs.so
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/..		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/libhdfs.so
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../libhdfs.so
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libhdfs.so
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libhdfs.so
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libhdfs.so
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	 search path=/lib/x86_64-linux-gnu/tls/haswell/x86_64:/lib/x86_64-linux-gnu/tls/haswell:/lib/x86_64-linux-gnu/tls/x86_64:/lib/x86_64-linux-gnu/tls:/lib/x86_64-linux-gnu/haswell/x86_64:/lib/x86_64-linux-gnu/haswell:/lib/x86_64-linux-gnu/x86_64:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/tls/haswell/x86_64:/usr/lib/x86_64-linux-gnu/tls/haswell:/usr/lib/x86_64-linux-gnu/tls/x86_64:/usr/lib/x86_64-linux-gnu/tls:/usr/lib/x86_64-linux-gnu/haswell/x86_64:/usr/lib/x86_64-linux-gnu/haswell:/usr/lib/x86_64-linux-gnu/x86_64:/usr/lib/x86_64-linux-gnu:/lib/tls/haswell/x86_64:/lib/tls/haswell:/lib/tls/x86_64:/lib/tls:/lib/haswell/x86_64:/lib/haswell:/lib/x86_64:/lib:/usr/lib/tls/haswell/x86_64:/usr/lib/tls/haswell:/usr/lib/tls/x86_64:/usr/lib/tls:/usr/lib/haswell/x86_64:/usr/lib/haswell:/usr/lib/x86_64:/usr/lib		(system search path)
+     21863:	  trying file=/lib/x86_64-linux-gnu/tls/haswell/x86_64/libhdfs.so
+     21863:	  trying file=/lib/x86_64-linux-gnu/tls/haswell/libhdfs.so
+     21863:	  trying file=/lib/x86_64-linux-gnu/tls/x86_64/libhdfs.so
+     21863:	  trying file=/lib/x86_64-linux-gnu/tls/libhdfs.so
+     21863:	  trying file=/lib/x86_64-linux-gnu/haswell/x86_64/libhdfs.so
+     21863:	  trying file=/lib/x86_64-linux-gnu/haswell/libhdfs.so
+     21863:	  trying file=/lib/x86_64-linux-gnu/x86_64/libhdfs.so
+     21863:	  trying file=/lib/x86_64-linux-gnu/libhdfs.so
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/tls/haswell/x86_64/libhdfs.so
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/tls/haswell/libhdfs.so
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/tls/x86_64/libhdfs.so
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/tls/libhdfs.so
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/haswell/x86_64/libhdfs.so
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/haswell/libhdfs.so
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/x86_64/libhdfs.so
+     21863:	  trying file=/usr/lib/x86_64-linux-gnu/libhdfs.so
+     21863:	  trying file=/lib/tls/haswell/x86_64/libhdfs.so
+     21863:	  trying file=/lib/tls/haswell/libhdfs.so
+     21863:	  trying file=/lib/tls/x86_64/libhdfs.so
+     21863:	  trying file=/lib/tls/libhdfs.so
+     21863:	  trying file=/lib/haswell/x86_64/libhdfs.so
+     21863:	  trying file=/lib/haswell/libhdfs.so
+     21863:	  trying file=/lib/x86_64/libhdfs.so
+     21863:	  trying file=/lib/libhdfs.so
+     21863:	  trying file=/usr/lib/tls/haswell/x86_64/libhdfs.so
+     21863:	  trying file=/usr/lib/tls/haswell/libhdfs.so
+     21863:	  trying file=/usr/lib/tls/x86_64/libhdfs.so
+     21863:	  trying file=/usr/lib/tls/libhdfs.so
+     21863:	  trying file=/usr/lib/haswell/x86_64/libhdfs.so
+     21863:	  trying file=/usr/lib/haswell/libhdfs.so
+     21863:	  trying file=/usr/lib/x86_64/libhdfs.so
+     21863:	  trying file=/usr/lib/libhdfs.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/_tf_stack.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	
+     21863:	
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_csv.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/fcntl.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/framework/fast_tensor_util.so
+     21863:	
+     21863:	find library=libuuid.so.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../..		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libuuid.so.1
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/bin/python)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libuuid.so.1
+     21863:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21863:	  trying file=/opt/ros/melodic/lib/libuuid.so.1
+     21863:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libuuid.so.1
+     21863:	 search cache=/etc/ld.so.cache
+     21863:	  trying file=/lib/x86_64-linux-gnu/libuuid.so.1
+     21863:	
+     21863:	
+     21863:	calling init: /lib/x86_64-linux-gnu/libuuid.so.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/wrapt/_wrappers.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	find library=libssl.so.1.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../..		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libssl.so.1.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libssl.so.1.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_ssl.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	find library=libhdf5-beac1db3.so.103.0.0 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/tls/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/tls/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/tls/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/tls:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/_errors.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/tls/haswell/x86_64/libhdf5-beac1db3.so.103.0.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/tls/haswell/libhdf5-beac1db3.so.103.0.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/tls/x86_64/libhdf5-beac1db3.so.103.0.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/tls/libhdf5-beac1db3.so.103.0.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/haswell/x86_64/libhdf5-beac1db3.so.103.0.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/haswell/libhdf5-beac1db3.so.103.0.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/x86_64/libhdf5-beac1db3.so.103.0.0
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/libhdf5-beac1db3.so.103.0.0
+     21863:	
+     21863:	find library=libhdf5_hl-db841637.so.100.1.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/_errors.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/libhdf5_hl-db841637.so.100.1.1
+     21863:	
+     21863:	find library=libsz-1c7dd0cf.so.2.0.1 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./tls/haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./tls/haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./tls/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./tls:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./haswell/x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./haswell:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./x86_64:/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/.		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/libhdf5-beac1db3.so.103.0.0)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./tls/haswell/x86_64/libsz-1c7dd0cf.so.2.0.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./tls/haswell/libsz-1c7dd0cf.so.2.0.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./tls/x86_64/libsz-1c7dd0cf.so.2.0.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./tls/libsz-1c7dd0cf.so.2.0.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./haswell/x86_64/libsz-1c7dd0cf.so.2.0.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./haswell/libsz-1c7dd0cf.so.2.0.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./x86_64/libsz-1c7dd0cf.so.2.0.1
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./libsz-1c7dd0cf.so.2.0.1
+     21863:	
+     21863:	find library=libaec-2147abcd.so.0.0.4 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/.		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/libhdf5-beac1db3.so.103.0.0)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./libaec-2147abcd.so.0.0.4
+     21863:	
+     21863:	find library=libz-a147dcb0.so.1.2.3 [0]; searching
+     21863:	 search path=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/.		(RPATH from file /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/libhdf5-beac1db3.so.103.0.0)
+     21863:	  trying file=/home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./libz-a147dcb0.so.1.2.3
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./libz-a147dcb0.so.1.2.3
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./libaec-2147abcd.so.0.0.4
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./libsz-1c7dd0cf.so.2.0.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/libhdf5-beac1db3.so.103.0.0
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/libhdf5_hl-db841637.so.100.1.1
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/_errors.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/defs.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/_objects.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/_conv.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5r.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5t.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/utils.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21878:	find library=libc.so.6 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib/tls/haswell/x86_64:/opt/ros/melodic/lib/tls/haswell:/opt/ros/melodic/lib/tls/x86_64:/opt/ros/melodic/lib/tls:/opt/ros/melodic/lib/haswell/x86_64:/opt/ros/melodic/lib/haswell:/opt/ros/melodic/lib/x86_64:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64/tls/haswell/x86_64:/usr/local/cuda/extras/CUPTI/lib64/tls/haswell:/usr/local/cuda/extras/CUPTI/lib64/tls/x86_64:/usr/local/cuda/extras/CUPTI/lib64/tls:/usr/local/cuda/extras/CUPTI/lib64/haswell/x86_64:/usr/local/cuda/extras/CUPTI/lib64/haswell:/usr/local/cuda/extras/CUPTI/lib64/x86_64:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/tls/haswell/x86_64/libc.so.6
+     21878:	  trying file=/opt/ros/melodic/lib/tls/haswell/libc.so.6
+     21878:	  trying file=/opt/ros/melodic/lib/tls/x86_64/libc.so.6
+     21878:	  trying file=/opt/ros/melodic/lib/tls/libc.so.6
+     21878:	  trying file=/opt/ros/melodic/lib/haswell/x86_64/libc.so.6
+     21878:	  trying file=/opt/ros/melodic/lib/haswell/libc.so.6
+     21878:	  trying file=/opt/ros/melodic/lib/x86_64/libc.so.6
+     21878:	  trying file=/opt/ros/melodic/lib/libc.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/haswell/x86_64/libc.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/haswell/libc.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/x86_64/libc.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/tls/libc.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/haswell/x86_64/libc.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/haswell/libc.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/x86_64/libc.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libc.so.6
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/lib/x86_64-linux-gnu/libc.so.6
+     21878:	
+     21878:	find library=libGL.so.1 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/libGL.so.1
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libGL.so.1
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/usr/lib/x86_64-linux-gnu/libGL.so.1
+     21878:	
+     21878:	find library=libGLX.so.0 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/libGLX.so.0
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libGLX.so.0
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/usr/lib/x86_64-linux-gnu/libGLX.so.0
+     21878:	
+     21878:	find library=libGLdispatch.so.0 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/libGLdispatch.so.0
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libGLdispatch.so.0
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/usr/lib/x86_64-linux-gnu/libGLdispatch.so.0
+     21878:	
+     21878:	find library=libpthread.so.0 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/libpthread.so.0
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libpthread.so.0
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/lib/x86_64-linux-gnu/libpthread.so.0
+     21878:	
+     21878:	find library=libX11.so.6 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/libX11.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libX11.so.6
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/usr/lib/x86_64-linux-gnu/libX11.so.6
+     21878:	
+     21878:	find library=libdl.so.2 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/libdl.so.2
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libdl.so.2
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/lib/x86_64-linux-gnu/libdl.so.2
+     21878:	
+     21878:	find library=libxcb.so.1 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/libxcb.so.1
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libxcb.so.1
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/usr/lib/x86_64-linux-gnu/libxcb.so.1
+     21878:	
+     21878:	find library=libXau.so.6 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/libXau.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libXau.so.6
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/usr/lib/x86_64-linux-gnu/libXau.so.6
+     21878:	
+     21878:	find library=libXdmcp.so.6 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/libXdmcp.so.6
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libXdmcp.so.6
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/usr/lib/x86_64-linux-gnu/libXdmcp.so.6
+     21878:	
+     21878:	find library=libbsd.so.0 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/libbsd.so.0
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/libbsd.so.0
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/lib/x86_64-linux-gnu/libbsd.so.0
+     21878:	
+     21878:	find library=librt.so.1 [0]; searching
+     21878:	 search path=/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64		(LD_LIBRARY_PATH)
+     21878:	  trying file=/opt/ros/melodic/lib/librt.so.1
+     21878:	  trying file=/usr/local/cuda/extras/CUPTI/lib64/librt.so.1
+     21878:	 search cache=/etc/ld.so.cache
+     21878:	  trying file=/lib/x86_64-linux-gnu/librt.so.1
+     21878:	
+     21878:	
+     21878:	calling init: /lib/x86_64-linux-gnu/libpthread.so.0
+     21878:	
+     21878:	
+     21878:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+     21878:	
+     21878:	
+     21878:	calling init: /lib/x86_64-linux-gnu/librt.so.1
+     21878:	
+     21878:	
+     21878:	calling init: /lib/x86_64-linux-gnu/libbsd.so.0
+     21878:	
+     21878:	
+     21878:	calling init: /usr/lib/x86_64-linux-gnu/libXdmcp.so.6
+     21878:	
+     21878:	
+     21878:	calling init: /usr/lib/x86_64-linux-gnu/libXau.so.6
+     21878:	
+     21878:	
+     21878:	calling init: /usr/lib/x86_64-linux-gnu/libxcb.so.1
+     21878:	
+     21878:	
+     21878:	calling init: /lib/x86_64-linux-gnu/libdl.so.2
+     21878:	
+     21878:	
+     21878:	calling init: /usr/lib/x86_64-linux-gnu/libX11.so.6
+     21878:	
+     21878:	
+     21878:	calling init: /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0
+     21878:	
+     21878:	
+     21878:	calling init: /usr/lib/x86_64-linux-gnu/libGLX.so.0
+     21878:	
+     21878:	
+     21878:	calling init: /usr/lib/x86_64-linux-gnu/libGL.so.1
+     21878:	
+     21878:	
+     21878:	calling init: /usr/lib/x86_64-linux-gnu/libGLEW.so
+     21878:	
+     21878:	
+     21878:	initialize program: /bin/sh
+     21878:	
+     21878:	
+     21878:	transferring control: /bin/sh
+     21878:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5z.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5a.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5s.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5p.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5ac.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/_proxy.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5d.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5ds.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5f.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5g.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5i.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5fd.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5pl.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5o.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5l.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/_lib/_ccallback_c.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/_lib/_uarray/_uarray.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/_sparsetools.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/_csparsetools.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_shortest_path.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_tools.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_traversal.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_min_spanning_tree.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_flow.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_matching.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_reordering.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/ndimage/_nd_image.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/ndimage/_ni_label.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	find library=libopenblasp-r0-085ca80a.3.9.so [0]; searching
+     21863:	 search path=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/tls/haswell/x86_64:/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/tls/haswell:/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/tls/x86_64:/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/tls:/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/haswell/x86_64:/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/haswell:/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/x86_64:/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs		(RPATH from file /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_fblas.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/tls/haswell/x86_64/libopenblasp-r0-085ca80a.3.9.so
+     21863:	  trying file=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/tls/haswell/libopenblasp-r0-085ca80a.3.9.so
+     21863:	  trying file=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/tls/x86_64/libopenblasp-r0-085ca80a.3.9.so
+     21863:	  trying file=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/tls/libopenblasp-r0-085ca80a.3.9.so
+     21863:	  trying file=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/haswell/x86_64/libopenblasp-r0-085ca80a.3.9.so
+     21863:	  trying file=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/haswell/libopenblasp-r0-085ca80a.3.9.so
+     21863:	  trying file=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/x86_64/libopenblasp-r0-085ca80a.3.9.so
+     21863:	  trying file=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/libopenblasp-r0-085ca80a.3.9.so
+     21863:	
+     21863:	find library=libgfortran-ed201abd.so.3.0.0 [0]; searching
+     21863:	 search path=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs		(RPATH from file /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_fblas.cpython-36m-x86_64-linux-gnu.so)
+     21863:	  trying file=/home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/libgfortran-ed201abd.so.3.0.0
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/libgfortran-ed201abd.so.3.0.0
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/libopenblasp-r0-085ca80a.3.9.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_fblas.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_flapack.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_flinalg.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_solve_toeplitz.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_decomp_update.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/cython_blas.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/cython_lapack.cpython-36m-x86_64-linux-gnu.so
+     21863:	
+     21863:	
+     21863:	calling init: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/lite/experimental/microfrontend/python/ops/_audio_microfrontend_op.so
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/bin/python [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /usr/lib/x86_64-linux-gnu/libGLEW.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /lib/x86_64-linux-gnu/libutil.so.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /usr/lib/x86_64-linux-gnu/libGL.so.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /usr/lib/x86_64-linux-gnu/libGLX.so.0 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /usr/lib/x86_64-linux-gnu/libX11.so.6 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /usr/lib/x86_64-linux-gnu/libxcb.so.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /usr/lib/x86_64-linux-gnu/libXau.so.6 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /lib/x86_64-linux-gnu/libbsd.so.0 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libffi.so.7 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libopenblasp-r0-ae94cfde.3.9.dev.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libgfortran-2e0d59d6.so.5.0.0 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libz-eb09ad1d.so.1.2.3 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libquadmath-2d0c479f.so.0.0.0 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../liblzma.so.5 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/fft/_pocketfft_internal.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_common.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libz.so.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_bounded_integers.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_mt19937.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_philox.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_pcg64.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_sfc64.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/numpy/random/_generator.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/_tf_stack.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	
+     21863:	
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_csv.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/fcntl.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/framework/fast_tensor_util.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /lib/x86_64-linux-gnu/libuuid.so.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/wrapt/_wrappers.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/_ssl.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libssl.so.1.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/../../libcrypto.so.1.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/_errors.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/defs.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/_objects.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/_conv.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5r.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5t.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/utils.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5z.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5a.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5s.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5p.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5ac.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/_proxy.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5d.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5ds.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5f.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5g.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5i.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5fd.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5pl.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5o.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/h5l.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/libhdf5_hl-db841637.so.100.1.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/libhdf5-beac1db3.so.103.0.0 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./libz-a147dcb0.so.1.2.3 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./libsz-1c7dd0cf.so.2.0.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/h5py/.libs/./libaec-2147abcd.so.0.0.4 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/_lib/_ccallback_c.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/_lib/_uarray/_uarray.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/_sparsetools.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/_csparsetools.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_shortest_path.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_tools.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_traversal.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_min_spanning_tree.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_flow.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_matching.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/sparse/csgraph/_reordering.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/ndimage/_nd_image.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/ndimage/_ni_label.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_fblas.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_flapack.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_flinalg.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_solve_toeplitz.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/_decomp_update.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/cython_blas.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/cython_lapack.cpython-36m-x86_64-linux-gnu.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/libopenblasp-r0-085ca80a.3.9.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/.local/lib/python3.6/site-packages/scipy/linalg/../../scipy.libs/libgfortran-ed201abd.so.3.0.0 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/lite/experimental/microfrontend/python/ops/_audio_microfrontend_op.so [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages/tensorflow_core/python/../libtensorflow_framework.so.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libstdc++.so.6 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /home/ricks/miniconda3/envs/tf115_performance_test/bin/../lib/libgcc_s.so.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /lib/x86_64-linux-gnu/libm.so.6 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /lib/x86_64-linux-gnu/librt.so.1 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /lib/x86_64-linux-gnu/libdl.so.2 [0]
+     21863:	
+     21863:	
+     21863:	calling fini: /lib/x86_64-linux-gnu/libpthread.so.0 [0]
+     21863:	
+
+== env ==========================================================
+LD_LIBRARY_PATH /opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/extras/CUPTI/lib64
+DYLD_LIBRARY_PATH is unset
+
+== nvidia-smi ===================================================
+Mon Sep 28 16:07:23 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.66       Driver Version: 450.66       CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Quadro P1000        Off  | 00000000:01:00.0  On |                  N/A |
+| N/A   49C    P0    N/A /  N/A |    904MiB /  4040MiB |      7%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      2108      G   /usr/lib/xorg/Xorg                492MiB |
+|    0   N/A  N/A      3876      G   /usr/bin/gnome-shell              226MiB |
+|    0   N/A  N/A     20611      G   ...ac_clean_tf2_3/bin/python        1MiB |
+|    0   N/A  N/A     23117      G   ...AAAAAAAAA= --shared-files      159MiB |
++-----------------------------------------------------------------------------+
+
+== cuda libs  ===================================================
+/usr/local/cuda-10.1/doc/man/man7/libcudart.so.7
+/usr/local/cuda-10.1/doc/man/man7/libcudart.7
+/usr/local/cuda-10.1/targets/x86_64-linux/lib/libcudart.so.10.1.243
+/usr/local/cuda-10.1/targets/x86_64-linux/lib/libcudart_static.a
+/usr/local/cuda-10.2/targets/x86_64-linux/lib/libcudart.so.10.2.89
+/usr/local/cuda-10.0/doc/man/man7/libcudart.so.7
+/usr/local/cuda-10.0/doc/man/man7/libcudart.7
+/usr/local/cuda-10.0/targets/x86_64-linux/lib/libcudart_static.a
+/usr/local/cuda-10.0/targets/x86_64-linux/lib/libcudart.so.10.0.130
+
+== tensorflow installed from info ==================
+Name: tensorflow
+Version: 1.15.0
+Summary: TensorFlow is an open source machine learning framework for everyone.
+Home-page: https://www.tensorflow.org/
+Author-email: packages@tensorflow.org
+License: Apache 2.0
+Location: /home/ricks/miniconda3/envs/tf115_performance_test/lib/python3.6/site-packages
+Required-by: 
+
+== python version  ==============================================
+(major, minor, micro, releaselevel, serial)
+(3, 6, 12, 'final', 0)
+
+== bazel version  ===============================================
