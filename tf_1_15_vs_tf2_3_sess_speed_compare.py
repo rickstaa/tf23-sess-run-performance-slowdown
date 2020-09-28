@@ -10,11 +10,10 @@ import tensorflow as tf
 
 # Script settings
 USE_GPU = False
-N_STEPS = 1e5
+N_STEPS = 5e5
 
 # Disable GPU if requested
 if not USE_GPU:  # NOTE: This works in both TF115 and tf2
-    # tf.config.set_visible_devices([], "GPU")
     if version.parse(tf.__version__) > version.parse("1.15.4"):
         tf.config.set_visible_devices([], "GPU")
     else:
@@ -35,7 +34,7 @@ x = tf.compat.v1.placeholder(tf.float32, [None, 1], "x")
 y = tf.math.sin(x, name=None)
 
 # Run session in loop
-print("===TF115 speed test script===")
+print(f"===TF {tf.__version__} speed test script===")
 print(f"Running a tf session {int(N_STEPS)} times to test the execution speed.")
 print("Starting sess run loop.")
 t1 = time.time()

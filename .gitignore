@@ -1,0 +1,8 @@
+# Files to ignore
+*.zip
+*.cprof
+*.Result
+*.code-workspace
+
+# Folders to ignore
+.vscode
